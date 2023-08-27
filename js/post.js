@@ -12,9 +12,9 @@ function displayShow(posts) {
     const divPost = document.createElement("div");
     divPost.classList.add("post");
     divPost.innerHTML = `
-        <h1> name: ${post.title} </h1>
-        <p> name: ${post.id} </p>
-        <h3> name: ${post.body} </h3>
+        <h1>Name : ${post.title}</h1>
+        <p>Id : ${post.id}</p>
+        <h3> Body name : ${post.body}</h3>
     
     `;
     div.appendChild(divPost);
